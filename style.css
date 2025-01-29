@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #493628;
+    font-weight: bolder;
+}
+
+#firsthead{
+    font-size: larger;
+}
+
+h3{
+    color: #E4E0E1;
+}
+
+th{
+    background-color: #AB886D;
+}
+
+.rows{
+    background: #D6C0B3;
+}
+
+a:hover {
+    text-decoration: underline;
+    padding: 8px;
+    color: black;
+    background-color: white;
+    font-size: large;
+}
+
+a:focus {
+    color: red;
+}
+
+a{
+    color: white;
+}

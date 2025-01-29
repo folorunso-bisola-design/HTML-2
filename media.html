@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./table.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+    <main>
+        <section class="first">
+            <picture>
+                <source srcset="image-small.jpg" media="(max-width: 600px)">
+                <source srcset="image-medium.jpg" media="(max-width: 1200px)">
+                <source srcset="image-large.jpg">
+                <img src="/image.jpg" alt="">
+              </picture>
+        </section>
+
+        <section class="second">
+            <video width="320" height="240" autoplay muted controls>
+                <source src="movie.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+              Your browser does not support the video tag.
+              </video>
+        </section>
+    </main>
+    </header>
+</body>
+</html>
