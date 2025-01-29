@@ -1,38 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jockey+One&family=Kode+Mono:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+Hatran&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="./table.html">Home</a>
-                </li>
-            </ul>
-        </nav>
-    <main>
-        <section class="first">
-            <picture>
-                <source srcset="image-small.jpg" media="(max-width: 600px)">
-                <source srcset="image-medium.jpg" media="(max-width: 1200px)">
-                <source srcset="image-large.jpg">
-                <img src="./image.jpg" alt="">
-              </picture>
+      <nav>
+       <a href="./table.html">Tables</a>
+      </nav>
+     <h1>About Me</h1>
+    </header>
+
+    
+            <div class="content">
+                <section>
+                  <h2>Folorunso Bisola Anikeoluwa</h2>
+                  <p>
+                    I'm a creative and tech-savvy individual who enjoys solving challenges with technology, design, and storytelling.
+                     I thrive on innovation and am continuously looking for ways to improve and simplify complex procedures. 
+                     Aside from my professional interests, I'm a passionate music fan, finding inspiration in various genres that feed my creativity. 
+                     I enjoy watching and playing football, particularly the strategy and collaboration required. 
+                     In my spare time, I immerse myself in the world of video games, seeking out new challenges, stories, and adventures.
+                      Whether it's through technology, sports, or entertainment, I'm always looking to learn, grow, and connect with like-minded people.
+                  </p>
+                </section>
+          
+          
         </section>
 
         <section class="second">
-            <video width="320" height="240" autoplay muted controls>
-                <source src="movie.mp4" type="video/mp4">
-                <source src="movie.ogg" type="video/ogg">
-              Your browser does not support the video tag.
-              </video>
+            <h2>A Picture of Me</h2>
+        <div class="picture-container">
+          <picture>
+            <source
+              srcset="./image.jpg"
+              media="(min-width: 1024px)"
+              alt="Desktop view of me"
+            />
+            <source
+              srcset="./image.jpg"
+              media="(min-width: 768px)"
+              alt="Tablet view of me"
+            />
+            <source
+              srcset="./image.jpg"
+              media="(max-width: 767px)"
+              alt="Mobile view of me"
+            />
+            <img src="./image.jpg" alt="A picture showcasing myself" />
+          </picture>
+        </div>
         </section>
-    </main>
-    </header>
-</body>
-</html>
+
+        <section>
+            <h2>My Journey</h2>
+            <p>
+                My journey in technology has been both thrilling and transformative, marked by challenges, continuous learning, and personal growth. 
+                What began as a simple curiosity about how things function evolved into a deep passion for problem-solving through technology. 
+                My fascination with computers and gadgets sparked a desire to explore new software, experiment with various applications, and grasp the underlying logic of technology. 
+                This curiosity eventually led me to learn the basics of programming, where I discovered the incredible potential of coding in turning ideas into reality.
+            </p>
+    
+            <p>
+                Beyond coding, I developed a keen interest in emerging technologies like artificial intelligence, blockchain, and cloud computing. 
+                These fields continue to inspire me as I explore innovative ways to apply them to real-world challenges. 
+                Throughout my journey, I have learned the importance of adaptability, as technology constantly evolves, making continuous learning essential. 
+                Today, I am dedicated to expanding my knowledge, creating impactful solutions, and sharing insights with others. 
+                My ambition extends beyond personal growth—I aim to contribute to the tech community, mentor aspiring developers, and use technology to drive meaningful change. 
+                This journey is far from over; I see it as a lifelong adventure where every challenge presents a learning opportunity and every achievement paves the way for greater innovation.
+            </p>
+            <video controls aria-label="A short video about my journey">
+              <source src="./assets/videos.mp4" type="video/mp4" />
+              Your browser does not support mp4 videos, change browser!
+            </video>
+        </section>
+          
+
+        <section>
+            <h2>A Quick Message</h2>
+            <p>
+                If you prefer listening over reading, here’s a short message about my passion and vision for the future. 
+                As I mentioned earlier, music is something I truly enjoy, and the song below deeply reflects my journey and aspirations. 
+                It serves as a constant reminder of my goals and keeps me inspired, which is why I’d love to share it with you.
+            </p>
+            <audio controls aria-label="An audio message about me">
+              <source src="./asset/my Audio.mp3" type="audio/mpeg" />
+              Your browser does not support mp3 audios, change browser!
+            </audio>
+          </section>
+        </div>
+    
+        <footer>
+          <p>&copy; 2025 Folorunso Bisola Anikeoluwa. All Rights Reserved.</p>
+        </footer>
+    </body>
+    </html>
