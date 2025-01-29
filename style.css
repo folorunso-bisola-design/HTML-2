@@ -42,3 +42,60 @@ a:focus {
 a{
     color: white;
 }
+
+
+/* Small Screens (Up to 480px) */
+@media screen and (max-width: 480px) {
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 5px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Tablets (481px to 768px) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+
+    header nav ul {
+        justify-content: space-around;
+    }
+}
+
+/* Laptops and Small Desktops (769px to 1024px) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    table {
+        width: 80%;
+        margin: auto;
+    }
+
+    header nav ul {
+        justify-content: space-evenly;
+    }
+}
+
+/* Large Screens (1025px and above) */
+@media screen and (min-width: 1025px) {
+    table {
+        width: 70%;
+        margin: auto;
+    }
+
+    header nav ul {
+        justify-content: space-between;
+        padding: 20px;
+    }
+}
